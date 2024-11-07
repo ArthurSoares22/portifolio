@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+</head>
+<body class="bg-gray-100">
+
+ <!-- Items navbar -->
+ <nav class="flex justify-between items-center h-16 p-4 bg-transparent">
+    <div class="flex-grow flex justify-center space-x-4">
+        <div class="mb-4 sm:mb-0">
+            <a href="../assets/Currículo de Arthur Pimentel Soares.pdf" target="_blank">
+                <button class="p-2 px-4 w-37 bg-gray-100 rounded-md text-center transition duration-500 ease-in-out hover:shadow-lg
+                hover:bg-blue-500 dark:hover:shadow-black/40 border-solid border-2 border-black">
+                Currículo
+                </button>
+            </a>
+        </div>
+
+        <div>
+            <a href="#sobre">
+                <button class="p-2 px-4 w-37 bg-gray-100 rounded-md transition duration-500 ease-in-out hover:shadow-lg
+                hover:bg-blue-500 dark:hover:shadow-black/40 border-solid border-2 border-black">
+                    Sobre
+                </button>
+            </a>
+        </div>
+
+        <div>
+            <a href="#projetos">
+                <button class="p-2 px-4 w-37 bg-gray-100 rounded-md transition duration-500 ease-in-out hover:shadow-lg
+                hover:bg-blue-500 dark:hover:shadow-black/40 border-solid border-2 border-black">
+                    Projetos
+                </button>
+            </a>
+        </div>
+
+        <div>
+            <a href="#contatos">
+                <button class="p-2 px-4 w-37 bg-gray-100 rounded-md transition duration-500 ease-in-out hover:shadow-lg
+                hover:bg-blue-500 dark:hover:shadow-black/40 border-solid border-2 border-black">
+                    Contatos
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <div class="flex space-x-4">
+        <!-- Ícones das redes sociais -->
+        <a href="https://www.linkedin.com/in/arthur-pimentel-58623221b/" target="_blank" class="transform transition-transform duration-300 hover:scale-105 hover:text-blue-800">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-6 w-6" viewBox="0 0 24 24">
+                <path d="M22.225 0h-20.45C.994 0 0 .994 0 2.225v19.55C0 23.006.994 24 2.225 24h20.45C23.006 24 24 23.006 24 22.225V2.225C24 .994 23.006 0 22.225 0zm-14.45 20.452h-3.44v-11.3h3.44v11.3zm-1.725-12.89c-1.095 0-1.78-.757-1.78-1.7 0-.938.69-1.697 1.748-1.697.975 0 1.78.758 1.78 1.7 0 .943-.69 1.697-1.748 1.697zm15.16 12.89h-3.44v-5.759c0-1.376-.028-3.15-1.92-3.15-1.92 0-2.214 1.487-2.214 3.025v6.884h-3.44v-11.3h3.44v1.54h.049c.48-.91 1.653-1.86 3.397-1.86 3.623 0 4.295 2.39 4.295 5.5v6.116z"/>
+            </svg>
+        </a>
+        <a href="https://github.com/ArthurSoares22" target="_blank" class="transform transition-transform duration-300 hover:scale-105 hover:text-gray-500">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-6 w-6" viewBox="0 0 24 24">
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 5.304 3.438 9.8 8.207 11.387.6.111.82-.261.82-.577 0-.286-.01-1.045-.016-2.052-3.338.725-4.046-1.612-4.046-1.612-.546-1.38-1.33-1.749-1.33-1.749-1.085-.742.083-.726.083-.726 1.203.085 1.838 1.236 1.838 1.236 1.067 1.826 2.8 1.298 3.48.992.108-.774.417-1.298.762-1.597-2.665-.303-5.466-1.332-5.466-5.93 0-1.312.468-2.384 1.235-3.219-.123-.303-.535-1.527.116-3.176 0 0 1.008-.323 3.303 1.231A11.529 11.529 0 0 1 12 3.131c1.026.004 2.052.138 3.025.405 2.295-1.554 3.303-1.231 3.303-1.231.651 1.649.239 2.873.117 3.176.77.835 1.234 1.907 1.234 3.219 0 4.607-2.806 5.626-5.472 5.921.43.373.814 1.104.814 2.224 0 1.605-.014 2.899-.014 3.287 0 .318.218.693.824.576A12.008 12.008 0 0 0 24 12c0-6.627-5.373-12-12-12z"/>
+            </svg>
+        </a>
+        <a href="https://www.instagram.com/pimentelarthurr_/" target="_blank" class="transform transition-transform duration-300 hover:scale-105 hover:text-pink-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.5a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0z"></path>
+                <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+            </svg>
+        </a>
+    </div>
+</nav>
+
+
+  <!-- home -->
+  <section id="home" class="w-full flex flex-col sm:flex-row">
+    <div class="w-full sm:w-1/2 flex flex-col items-center sm:items-start justify-center p-4"> <!-- mudando items-center para sm:items-start -->
+        <h1 class="text-6xl font-bold text-gray-700">Olá, meu nome é Arthur!</h1>
+        <h3 class="text-4xl font-semibold mt-2 text-left">Sou desenvolvedor front-end</h3> <!-- Adicionando text-left -->
+    </div>
+
+    <div class="w-full sm:w-1/2 flex items-center justify-center p-4">
+        <img src="../assets/IMG-1.png" alt="Imagem de Arthur">
+    </div>
+</section>
+
+<!-- sobre mim -->
+
+<section id="sobre" class="p-8 bg-gray-200 ">
+    <div class="flex flex-col sm:flex-row">
+        <!-- Imagem à esquerda -->
+        <div class="w-full sm:w-1/2 flex items-center justify-center p-4">
+            <img src="../assets/fotoArthur.jpg" alt="Minha Foto" class="w- object-cover shadow-lg w-72 
+            rounded-lg transform transition-transform duration-300 hover:scale-105"> 
+        </div>
+
+        <!-- Texto à direita -->
+        <div class="w-full sm:w-1/2 p-4 flex flex-col justify-center">
+            <h2 class="text-3xl font-bold mb-4 text-gray-700">Sobre Mim</h2>
+            <p class="text-gray-700 leading-relaxed font-semibold">
+        Me chamo Arthur Pimentel tenho 21 anos, finalizei minha faculdade em análise e desenvolvimento de sistemas faz 1 ano.Em minha carreira 
+        como profissional trabalhei com atendimento ao cliente em uma provedora de internet, 
+        onde adquiri grandes aprendizados tantos em questões sociais como questões técnicas de rede. Atualmente 
+        sigo realizando meus estudos em programação com enfoque em front-end para me tornar um grande desenvolvedor web.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="projetos" class="p-8 bg-gray-100" >
+        <h2 class="text-4xl font-bold mb-4 text-gray-700 text-center">Projetos</h2>
+
+        <div class=" flex space-x-4">
+            
+            <a href="https://github.com/ArthurSoares22/projeto-cardapio.git" target="_blank">
+
+                <div class="max-w-sm rounded overflow-hidden shadow-lg transition-transform
+                transform  bg-white hover:scale-105 hover:shadow-2xl hover:bg-gray-100 duration-300 ease-in-out">
+                <img class="max-w-full shadow-lg rounded-lg" src="../assets/programação.jpg" alt="Imagem do Projeto">
+            <div class="px-6 py-4">
+                
+                <div class="font-bold text-xl mb-2">Cardápio de uma lanchonete</div>
+                <p class="text-gray-700 text-base">
+                    Um cardápio de uma lanchonete local.
+                </p>
+            </div>
+        </a>
+            <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-700 mr-2 mb-2">#HTML</span>
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-700 mr-2 mb-2">#CSS</span>
+                <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-700 mr-2 mb-2">#JavaScript</span>
+            </div>
+        </div>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg transition-transform
+          transform  bg-white hover:scale-105 hover:shadow-2xl hover:bg-gray-100 duration-300 ease-in-out">
+                <img class="max-w-full shadow-lg rounded-lg" src="../assets/programação.jpg" alt="Imagem do Projeto">
+                <div class="px-6 py-4">
+    
+                        <div class="font-bold text-xl mb-2">Meu portifólio</div>
+                        <p class="text-gray-700 text-base">
+                            Site que desenvolvi para poder apresentar o meu trabalho e meus Projetos.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-700 mr-2 mb-2">#HTML</span>
+                        <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-700 mr-2 mb-2">#CSS</span>
+                        <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-700 mr-2 mb-2">#JavaScript</span>
+                    </div>
+                </div>
+
+        </div>
+</section>
+
+
+<section id="skills" class="p-12 bg-gray-200">
+
+    <h2 class="text-4xl font-bold mb-4 text-gray-700 text-center">Meus conhecimentos</h2>
+
+<div class=" flex space-x-4">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg transition-transform
+    transform  bg-white hover:scale-105 hover:shadow-2xl hover:bg-gray-100   duration-300 ease-in-out" >
+    <!-- Ícone (Imagem) -->
+    <img src="../assets/js_5968292.png" class="w-16 h-16 mr-4" alt="JavaScript"> <!-- Tamanho ajustado para ícone -->
+    
+    <!-- Texto ou outro conteúdo -->
+    <div>
+        <h3 class="text-xl font-semibold text-gray-800">JavaScript</h3>
+        <p class="text-gray-600 font-semibold">JavaScript é uma linguagem de programação interpretada usada no 
+            desenvolvimento web para descrever funcionalidades e comportamentos da página.</p>
+        </div>
+    </div>
+    
+    
+    <div class="max-w-sm rounded overflow-hidden shadow-lg transition-transform
+    transform  bg-white hover:scale-105 hover:shadow-2xl hover:bg-gray-100  duration-300 ease-in-out">
+    <!-- Ícone (Imagem) -->
+        <img src="../assets/html-5_919827.png" class="w-16 h-16 mr-4" alt="JavaScript"> <!-- Tamanho ajustado para ícone -->
+        
+        <!-- Texto ou outro conteúdo -->
+        <div>
+            <h3 class="text-xl font-semibold text-gray-800"><Html></Html></h3>
+            <p class="text-gray-600 font-semibold">HTML5 é uma linguagem de marcação de hipertexto, que usamos para marcar os 
+                elementos da página e construí-la..</p>
+        </div>
+    </div>
+
+    <div class="max-w-sm rounded overflow-hidden shadow-lg transition-transform
+    transform  bg-white hover:scale-105 hover:shadow-2xl hover:bg-gray-100   duration-300 ease-in-out">
+    <!-- Ícone (Imagem) -->
+        <img src="../assets/social_11516361.png" class="w-16 h-16 mr-4" alt="JavaScript"> <!-- Tamanho ajustado para ícone -->
+        
+        <!-- Texto ou outro conteúdo -->
+        <div>
+            <h3 class="text-xl font-semibold text-gray-800"></h3>
+            <p class="text-gray-600 font-semibold">CSS3 é uma linguagem de estilo usada para 
+                descrever a apresentação dos elementos da página os estilizando.</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="contatos" class="p-8 bg-gray-100">
+    <h2 class="text-4xl font-bold mb-4 text-gray-700 text-left">Fale Comigo</h2>
+
+    <!-- Informações de Contato -->
+    <div class="mb-6">
+        
+    <p class="text-xl font-medium text-gray-800 mb-2 flex items-center ">
+        <!-- Texto de Email -->
+        <a href="mailto:arthur.pimentel02@hotmail.com" 
+           class="text-gray-700 rounded-md transition 
+           duration-300 ease-in-out hover:bg-gray-300 py-1 px-2 flex items center ">
+           <img src="../assets/iconmonstr-mail-thin-240.png" alt="" class="h-6 w-6 mr-2">
+            arthur.pimentel02@hotmail.com
+        </a>
+    </p>
+
+    
+    <p class="text-xl font-medium text-gray-800 mb-2 flex items-center">        
+        <!-- Link de Telefone -->
+        <a href="tel:+5518997548035" class="text-gray-700 rounded-md 
+        transition duration-300 ease-in-out hover:bg-gray-300 py-1 px-2 flex items-center ">
+        <img src="../assets/iconmonstr-phone-thin-240.png" alt="" class="h-6 w-6 mr-2">
+        +55 (18) 99754-8035
+        </a>
+    </p>  
+</div>
+
+    <!-- Botão de WhatsApp -->
+
+   <a href="https://wa.me/5518997548035" target="_blank"
+   class="bg-transparent text-gray-800 font-bold py-2 px-4 rounded-md border border-gray-300 
+   transition duration-300 ease-in-out hover:bg-white hover:text-green-600">
+   WhatsApp
+</a>
+
+</section>
+
+<footer class="bg-gray-100 py-6">
+    <div class="border-t border-black mb-4"></div> <!-- Linha divisória -->
+    <div class="container mx-auto flex justify-between items-center">
+        <div class="text-sm text-gray-800">
+            <p>&copy; 2024 Arthur Pimentel. Todos os direitos reservados.</p>
+        </div>
+        <div class="flex space-x-4">
+            <!-- Ícones das redes sociais -->
+            <a href="https://www.linkedin.com/in/arthur-pimentel-58623221b/" target="_blank" class="hover:text-blue-800">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-6 w-6" viewBox="0 0 24 24">
+                    <path d="M22.225 0h-20.45C.994 0 0 .994 0 2.225v19.55C0 23.006.994 24 2.225 24h20.45C23.006 24 24 23.006 24 22.225V2.225C24 .994 23.006 0 22.225 0zm-14.45 20.452h-3.44v-11.3h3.44v11.3zm-1.725-12.89c-1.095 0-1.78-.757-1.78-1.7 0-.938.69-1.697 1.748-1.697.975 0 1.78.758 1.78 1.7 0 .943-.69 1.697-1.748 1.697zm15.16 12.89h-3.44v-5.759c0-1.376-.028-3.15-1.92-3.15-1.92 0-2.214 1.487-2.214 3.025v6.884h-3.44v-11.3h3.44v1.54h.049c.48-.91 1.653-1.86 3.397-1.86 3.623 0 4.295 2.39 4.295 5.5v6.116z"/>
+                </svg>
+            </a>
+            <a href="https://github.com/ArthurSoares22" target="_blank" class="hover:text-gray-500">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-6 w-6" viewBox="0 0 24 24">
+                    <path d="M12 0C5.373 0 0 5.373 0 12c0 5.304 3.438 9.8 8.207 11.387.6.111.82-.261.82-.577 0-.286-.01-1.045-.016-2.052-3.338.725-4.046-1.612-4.046-1.612-.546-1.38-1.33-1.749-1.33-1.749-1.085-.742.083-.726.083-.726 1.203.085 1.838 1.236 1.838 1.236 1.067 1.826 2.8 1.298 3.48.992.108-.774.417-1.298.762-1.597-2.665-.303-5.466-1.332-5.466-5.93 0-1.312.468-2.384 1.235-3.219-.123-.303-.535-1.527.116-3.176 0 0 1.008-.323 3.303 1.231A11.529 11.529 0 0 1 12 3.131c1.026.004 2.052.138 3.025.405 2.295-1.554 3.303-1.231 3.303-1.231.651 1.649.239 2.873.117 3.176.77.835 1.234 1.907 1.234 3.219 0 4.607-2.806 5.626-5.472 5.921.43.373.814 1.104.814 2.224 0 1.605-.014 2.899-.014 3.287 0 .318.218.693.824.576A12.008 12.008 0 0 0 24 12c0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/pimentelarthurr_/" target="_blank" class="hover:text-pink-600">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.5a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+                </svg>
+            </a>
+            
+        </div>
+    </div>
+</footer>
+<script src="../src/script.js"></script>
+</body>
